@@ -344,6 +344,19 @@ color: #cdcbd7;
     margin-bottom: 2rem;
 }
 
+.plan--popular .card__header {
+    position: relative;
+}
+
+.plan--popular .card__header::before{
+    content: url(../Images/popular.svg);
+    width: 40px;
+    position: absolute;
+    display: inline-block;
+    top: -6px;
+    right: 5%;
+}
+
 @media screen and (min-width: 1023px) {
     .plan__name {
         font-size: 1.4rem;
